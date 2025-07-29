@@ -10,7 +10,7 @@ function About() {
     useEffect(() => {
         let index = 0;
         const intervalId = setInterval(() => {
-            if (index < fullText.length-1) {
+            if (index < fullText.length - 1) {
                 setText((prev) => prev + fullText[index]);
                 index++;
             } else {
@@ -26,7 +26,9 @@ function About() {
                 <div className="row about-section align-items-center">
                     <div className="col-12 text-center pb-4">
                         <h2 className="fw-bold typing-title">{text}<span className="cursor">|</span></h2>
-                        <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, architecto!</p>
+                        <p className="lead">
+                            Freshness you can trust – delivering farm-fresh fruits and vegetables to your doorstep.
+                        </p>
                     </div>
                     <div className="col-md-6 mb-4">
                         <div className="video-wrapper">
@@ -35,17 +37,21 @@ function About() {
                     </div>
                     <div className="col-md-6">
                         <h4>About Us</h4>
-                        <p>This is a brief description about us and our company.</p>
+                        <p>
+                            We are passionate about bringing you the freshest, highest-quality fruits and vegetables straight from farms to your table.
+                            Our mission is to promote healthy living by providing natural and sustainably grown produce that is both affordable and accessible.
+                        </p>
                         <ul>
-                            <li>We Are Manufacturer</li>
-                            <li>We Are Supplier</li>
-                            <li>We Are Exporter</li>
+                            <li>We are direct farmers and trusted suppliers</li>
+                            <li>We deliver fresh produce to homes, shops, and businesses</li>
+                            <li>We ensure quality with every order — no compromises</li>
                         </ul>
                         <a href="/about" className="btn btn-outline-primary mt-3">Read More</a>
                     </div>
                 </div>
             </div>
         </div>
+
     );
 }
 
