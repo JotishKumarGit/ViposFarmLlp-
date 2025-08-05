@@ -50,7 +50,7 @@ const Service = () => {
                             <h5 className="fw-semibold">{service.title}</h5>
                             <p className="text-muted">{service.description}</p>
                             <div className="text-center mt-3">
-                                <a href="/contact" className="btn btn-primary btn-sm px-2 shadow-sm rounded-pill">
+                                <a href="/contact-us" className="btn btn-primary btn-sm px-2 shadow-sm rounded-pill">
                                     Read More
                                 </a>
                             </div>

@@ -61,19 +61,19 @@ function Header() {
             {/* Right: Links */}
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" href="#">Home</a>
+                <a className="nav-link" href="/">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <a className="nav-link" href="/about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Product</a>
+                <a className="nav-link" href="/products">Product</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Service</a>
+                <a className="nav-link" href="/services">Service</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Contact</a>
+                <a className="nav-link" href="/contact-us">Contact</a>
               </li>
             </ul>
           </div>
